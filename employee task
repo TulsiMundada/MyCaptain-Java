@@ -1,0 +1,18 @@
+public class Employee{
+    String n1="Robert";
+    int y1=1994;
+    int s1=100000;
+    String a1="64C,Walls street";
+    String n2="Sam";
+    int y2=2000;
+    int s2=95000;
+    String a2="28D,Walls street";
+    String n3="John";
+    int y3=1999;
+    int s3=80000;
+    String a3="26B,Walls street";
+    public static void main(String[] args){
+        Employee obj1=new Employee();
+        System.out.println("NAME YEAR OF JOINING ADDRESS "+obj1.n1+" "+obj1.y1+" "+obj1.a1+" "+obj1.n2+" "+obj1.y2+" "+obj1.a2+" "+obj1.n3+" "+obj1.y3+" "+obj1.a3);
+    }
+}
